@@ -24,10 +24,10 @@ function buildTable(data) {
       Object.values(dataRow).forEach((val) => {
         let cell = row.append("td");
         cell.text(val);
-        }
-      );
-    });
-  }
+      });
+    }
+  );
+}
 
   function handleClick() {
     // Grab the datetime value from the filter
@@ -53,4 +53,4 @@ d3.selectAll("#filter-btn").on("click", handleClick);
 // Build the table when the page loads
 buildTable(tableData);
 
-  };
+};
