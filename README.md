@@ -18,4 +18,6 @@ Users can also try search multiple fields. For example, a user can try to filter
 
 ## Summary
 
-The page does not load data
+One drawback to this page is that the page can only filters base on the information it is built upon. It does not allow to filter for any other years other than, year = 2010, for example else no search result will be return.
+
+I would suggest instead of building the page with limited data, connect it to an online database that get updated frequently. This way, users can filter any data they want for any location at any given period.
