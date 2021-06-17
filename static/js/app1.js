@@ -9,7 +9,6 @@ var tbody = d3.select("tbody"); //d3 means data-driven documents
 function buildTable(data) {
   // First, clear out any existing data
   tbody.html("");
-  
   /* 
   Next, loop through each object in the data
   and append a row and cells for each value in the row
@@ -52,6 +51,6 @@ function handleClick() {
 } 
 // Attach an event to listen for the form button
 d3.selectAll("#filter-btn").on("click", handleClick);
-
+console.log(tableData);
 // Build the table when the page loads
-buildTable(filteredData);
+buildTable(tableData);
