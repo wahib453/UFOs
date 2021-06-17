@@ -10,7 +10,7 @@ To provide users with more search options to filter through the UFOs data table 
 
 Users can search by shape as shown below. For example, a user can type "triangle" and it will pull up the data that meet the search criteria
 
-![SearchByShape](images/filterByshape.PNG)
+![SearchByShape](\static\images\filterByshape.PNG)
 
 ## Summary
 
